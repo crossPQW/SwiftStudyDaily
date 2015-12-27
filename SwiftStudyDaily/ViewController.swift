@@ -14,11 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.base()
+//        self.base()
+        self.basicOperators()
     }
 
     //base 基础部分
-    func base () ->Void{
+    func base (){
         //变量在使用之前需要进行生命,通常我们用let 声明常量,用var声明变量
         let number = 100 //不可修改
         _  = 200//可以修改
@@ -114,6 +115,39 @@ class ViewController: UIViewController {
         
         let age = 3
         assert(age < 3, "age is less than 3")
+    }
+    
+    //基本运算符
+    func basicOperators(){
+        
+        let a = 1
+        var b = 2
+        b = a
+        print(b)
+
+        let (x,y) = (3, 4)
+        
+        let string = "hello" + "world"
+        print(string)
+        
+        print(9 % 4)
+        print(-9 % 4)
+        
+        let defaultColorName = "red"
+        var userDefineColorName :String?
+        userDefineColorName = "green"
+        var colorNameTouse = userDefineColorName ?? defaultColorName
+        print(colorNameTouse)
+        
+        for index in 1...5{
+            print("\(index) \n")
+        }
+        
+        let names = ["a","b","c","d","e"]
+        let count = names.count
+        for inde in 0..<count {
+            print("第\(inde) ge ren jiao zuo \(names[inde])")
+        }
     }
     
     override func didReceiveMemoryWarning() {
