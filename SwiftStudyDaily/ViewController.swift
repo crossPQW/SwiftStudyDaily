@@ -15,7 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
 //        self.base()
-        self.basicOperators()
+//        self.basicOperators()
+        self.stringsAndCharactets()
     }
 
     //base 基础部分
@@ -148,6 +149,53 @@ class ViewController: UIViewController {
         for inde in 0..<count {
             print("第\(inde) ge ren jiao zuo \(names[inde])")
         }
+    }
+    
+    //字符串与字符
+    func stringsAndCharactets(){
+        var emptyString = ""
+        var otherEmptyString = String()
+        
+        if emptyString.isEmpty && otherEmptyString.isEmpty {
+            print("all is empty")
+        }
+        
+        var hello = "hello"
+        hello += "world"
+        print(hello)
+        
+        for c in "DOG🐶".characters{
+            print(c)
+        }
+        
+        let cats: [Character] = ["c","a","t"]
+        var catstring = String(cats)
+        print(catstring)
+        
+        var fuck = "fuck"
+        fuck += "you"
+        let tanhao:Character = "!"
+        fuck.append(tanhao)
+        fuck.appendContentsOf("heheda")
+        print(fuck)
+        
+        let thress = 3
+        let result = "\(thress) * 2.5 is \(Double(thress) * 3)"
+        print(result)
+        
+        let strings = "strings"
+        let count = strings.characters.count
+        
+        let green = "green"
+        print(green.startIndex,green.endIndex.predecessor())
+        
+        var welcome = "welcome"
+        welcome.insert("r", atIndex: welcome.endIndex)
+        welcome.insertContentsOf("u r ".characters, at: welcome.startIndex)
+        print(welcome)
+        
+        welcome.removeAtIndex(welcome.endIndex.predecessor())
+        print(welcome)
     }
     
     override func didReceiveMemoryWarning() {
