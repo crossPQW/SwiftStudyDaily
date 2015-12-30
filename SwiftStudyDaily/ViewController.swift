@@ -16,7 +16,8 @@ class ViewController: UIViewController {
         
 //        self.base()
 //        self.basicOperators()
-        self.stringsAndCharactets()
+//        self.stringsAndCharactets()
+        collectionTypes()
     }
 
     //base 基础部分
@@ -196,6 +197,89 @@ class ViewController: UIViewController {
         
         welcome.removeAtIndex(welcome.endIndex.predecessor())
         print(welcome)
+    }
+    
+    //集合类型
+    func collectionTypes(){
+        //swift中对集合类存储类型要求非常明确,不能存不正确的类型进去,array,dictionary,set被实现为泛型集合
+        
+        //空数组
+        var someInts = [Int]()
+        print(someInts)
+        
+        someInts.append(3)
+        print(someInts)
+        
+        someInts = []//这时候someInts是空数组,但是还是int型的
+        print(someInts)
+        
+        var threeDoubles = [Double](count: 3, repeatedValue: 10.10)
+        print(threeDoubles)
+        var otherDoubles = [Double](count: 3, repeatedValue: 100)
+        var sixDoubles = threeDoubles + otherDoubles
+        print(sixDoubles)//数组可以直接相加
+        
+        var strings = ["aaaaa","bbbbbb","cccccc"]
+        var otherStrings: [String] = ["adasdasda","asdasdada","wrewrwr"]
+        print(strings,"\n",otherStrings)
+        
+        var stringandnumbers = ["asdad",23,"asdadad",43]
+        print(stringandnumbers)
+        stringandnumbers.append("2423")
+        print( stringandnumbers)
+        var asdad = stringandnumbers[0]
+        print(asdad)
+        stringandnumbers[1...3] = ["vvfvvvvv","dfdfdfdfdf","trtrtrt"]
+        print(stringandnumbers)
+        let num = stringandnumbers.removeLast()
+        print(num)
+        
+        var hahas = ["haha","dsadad","dsdd",32323,"32323",54545]
+        for item in hahas{
+            print(item)
+        }
+        
+        for (index,items) in hahas.enumerate(){
+            print("items \(index) : \(items)")
+        }
+        
+        var numbers = Array<Int>()
+        numbers.insert(23, atIndex: 0)
+        print(numbers)
+        
+        var stringSet = Set<String>()
+        stringSet.insert("dadasd")
+        print(stringSet)
+        
+        //set的两种构造方法
+        var set1:Set<String> = ["huang","shao","hua"]
+        var set2:Set = ["huang","shao","hua"]
+        print(set1,set2)
+        
+        //字典
+        var book = [Int : String]()
+        book[10] = "十"
+        book[1] = "yi"
+        print(book)
+        book = [:]
+        
+        var person = ["name":"hahaha","sex":"famale","age":"six"]
+        print("person has \(person.count) items")
+        person["name"] = "huangshaohua"
+        print(person)
+        
+        //这个方法在有key的时候更新值,没有key的时候创建一个key-value
+        person.updateValue("one", forKey: "age")
+        person.updateValue("blue", forKey: "coloe")
+        print(person)
+        
+        for (a,b) in person{
+            print(a,b)
+        }
+        
+        let keys = person.keys.sort()
+        let values = person.values.sort()
+        print(keys,values)
     }
     
     override func didReceiveMemoryWarning() {

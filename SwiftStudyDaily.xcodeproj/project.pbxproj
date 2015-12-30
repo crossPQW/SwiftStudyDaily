@@ -47,6 +47,7 @@
 		850AC3D01C2AE00500DA3469 /* SwiftStudyDailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudyDailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		850AC3D41C2AE00500DA3469 /* SwiftStudyDailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyDailyUITests.swift; sourceTree = "<group>"; };
 		850AC3D61C2AE00500DA3469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853794991C342625009EF381 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 			children = (
 				850AC3B41C2AE00500DA3469 /* AppDelegate.swift */,
 				850AC3B61C2AE00500DA3469 /* ViewController.swift */,
+				853794991C342625009EF381 /* MyPlayground.playground */,
 				850AC3B81C2AE00500DA3469 /* Main.storyboard */,
 				850AC3BB1C2AE00500DA3469 /* Assets.xcassets */,
 				850AC3BD1C2AE00500DA3469 /* LaunchScreen.storyboard */,
@@ -483,6 +485,7 @@
 				850AC3DB1C2AE00500DA3469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		850AC3DC1C2AE00500DA3469 /* Build configuration list for PBXNativeTarget "SwiftStudyDailyTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +494,7 @@
 				850AC3DE1C2AE00500DA3469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		850AC3DF1C2AE00500DA3469 /* Build configuration list for PBXNativeTarget "SwiftStudyDailyUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +503,7 @@
 				850AC3E11C2AE00500DA3469 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
