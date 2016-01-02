@@ -150,7 +150,7 @@ class ViewController: UIViewController {
         for inde in 0..<count {
             print("第\(inde) ge ren jiao zuo \(names[inde])")
         }
-    }
+    
     
     //字符串与字符
     func stringsAndCharactets(){
