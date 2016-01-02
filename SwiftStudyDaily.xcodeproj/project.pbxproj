@@ -48,6 +48,7 @@
 		850AC3D41C2AE00500DA3469 /* SwiftStudyDailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyDailyUITests.swift; sourceTree = "<group>"; };
 		850AC3D61C2AE00500DA3469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8537949A1C37FF9C009EF381 /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ControlFlow.playground; path = ../ControlFlow.playground; sourceTree = "<group>"; };
+		8537949B1C381D02009EF381 /* func.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = func.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				8537949A1C37FF9C009EF381 /* ControlFlow.playground */,
+				8537949B1C381D02009EF381 /* func.playground */,
 				850AC3B41C2AE00500DA3469 /* AppDelegate.swift */,
 				850AC3B61C2AE00500DA3469 /* ViewController.swift */,
 				850AC3B81C2AE00500DA3469 /* Main.storyboard */,
