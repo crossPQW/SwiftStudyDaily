@@ -49,6 +49,7 @@
 		850AC3D61C2AE00500DA3469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8537949A1C37FF9C009EF381 /* ControlFlow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ControlFlow.playground; path = ../ControlFlow.playground; sourceTree = "<group>"; };
 		8537949B1C381D02009EF381 /* func.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = func.playground; sourceTree = "<group>"; };
+		858281521C3C1B8100AD1630 /* Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		850AC3B31C2AE00500DA3469 /* SwiftStudyDaily */ = {
 			isa = PBXGroup;
 			children = (
+				858281521C3C1B8100AD1630 /* Closure.playground */,
 				8537949A1C37FF9C009EF381 /* ControlFlow.playground */,
 				8537949B1C381D02009EF381 /* func.playground */,
 				850AC3B41C2AE00500DA3469 /* AppDelegate.swift */,
