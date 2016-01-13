@@ -52,6 +52,7 @@
 		8537949B1C381D02009EF381 /* func.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = func.playground; sourceTree = "<group>"; };
 		858281521C3C1B8100AD1630 /* Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure.playground; sourceTree = "<group>"; };
 		85B625AE1C4677E200EDB253 /* Class&Struck.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Class&Struck.playground"; sourceTree = "<group>"; };
+		85B625AF1C468E2300EDB253 /* Property.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Property.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 		850AC3B31C2AE00500DA3469 /* SwiftStudyDaily */ = {
 			isa = PBXGroup;
 			children = (
+				85B625AF1C468E2300EDB253 /* Property.playground */,
 				858281521C3C1B8100AD1630 /* Closure.playground */,
 				8537949A1C37FF9C009EF381 /* ControlFlow.playground */,
 				8537949B1C381D02009EF381 /* func.playground */,
