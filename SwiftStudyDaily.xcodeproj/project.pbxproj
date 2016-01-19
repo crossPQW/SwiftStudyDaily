@@ -53,6 +53,7 @@
 		858281521C3C1B8100AD1630 /* Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure.playground; sourceTree = "<group>"; };
 		85B625AE1C4677E200EDB253 /* Class&Struck.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Class&Struck.playground"; sourceTree = "<group>"; };
 		85B625AF1C468E2300EDB253 /* Property.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Property.playground; sourceTree = "<group>"; };
+		85B625EF1C4E876300EDB253 /* Subscripts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subscripts.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 				8537949B1C381D02009EF381 /* func.playground */,
 				851F345E1C414BC100DF242E /* Enumeration.playground */,
 				85B625AE1C4677E200EDB253 /* Class&Struck.playground */,
+				85B625EF1C4E876300EDB253 /* Subscripts.playground */,
 				850AC3B41C2AE00500DA3469 /* AppDelegate.swift */,
 				850AC3B61C2AE00500DA3469 /* ViewController.swift */,
 				850AC3B81C2AE00500DA3469 /* Main.storyboard */,
