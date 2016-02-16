@@ -21,9 +21,13 @@ class DataImport {
     var fileName = "name.file"
 }
 
+
 class DataManager {
     lazy var dataImport = DataImport()
     var data = [String]()
+    
+    var 😂 :String = "hahah"
+    var 😢 = "asdasdasd"
 }
 
 let manager = DataManager()

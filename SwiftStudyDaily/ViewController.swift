@@ -28,6 +28,8 @@ class ViewController: UIViewController {
         
         var x = 100,y = 200, z = 300
         
+        var 😂 :String = "哈哈"
+        
         var string: String = "hello world"
         
         var a, b, c: String
